@@ -5,7 +5,7 @@ ProEssentials v10 **WinForms .NET 8** — dual-channel ultrasonic borehole image
 chart sharing one colormap, one zoom, one rendering pass. A top-right overlay
 button toggles null rendering (Black / Gaps). Direct3D + GPU compute shader.
 
-![Wireline UBI WinForms](docs/WinformsWirelineUbiDualContour.png)
+![Wireline UBI WinForms](docs/winforms-chart-ultrasonic-borehole-dual-contour-heatmap-proessentials.png)
 
 ## What This Demonstrates
 - **Dual heatmaps in one chart** — two co-registered azimuthal channels
@@ -40,7 +40,7 @@ next to the executable on build. The `tools/` folder has the Python extractors.
 3. Build → Rebuild Solution; press F5. Toggle null mode top-right.
 
 ## NuGet
-References `ProEssentials.Chart.Net80.x64.Winforms` (>= 10.0.0.26).
+References `ProEssentials.Chart.Net80.x64.Winforms` (>= 10.0.0.28).
 
 ## License
 Example code is MIT licensed. ProEssentials requires a commercial license. Well-log
